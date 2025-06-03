@@ -1,0 +1,14 @@
+.feel_good_banner{
+    background-color: black;
+    padding: 60px 0;
+}
+.feel_good_banner h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feel_good_banner img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

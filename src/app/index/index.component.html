@@ -1,0 +1,115 @@
+<section class="movie_home_page_banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h2>MOVIE TIME</h2>
+            </div>
+            <div class="col-md-12 m-auto">
+                <h1>Unlimited movies, TV <br>shows and more</h1>
+                <div class="row">
+                    <div class="col-md-3 m-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Feel Good</h3>
+                                <p>Sometimes the smallest places serve the biggest changes</p>
+                                <div class="text-center">
+                                    <a [routerLink]="['/feel_good']" class="btn btn-click-me">Watch now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 m-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Action Fix</h3>
+                                <p>Sometimes the smallest places serve the biggest changes</p>
+                                <div class="text-center">
+                                    <a [routerLink]="['/action_fix']" class="btn btn-click-me">Watch now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 m-auto">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Mind Benders</h3>
+                                <p>Sometimes the smallest places serve the biggest changes</p>
+                                <div class="text-center">
+                                    <a [routerLink]="['/mind_bender']" class="btn btn-click-me">Watch now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<section class="movie_search">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 m-auto">
+                <h1 class="text-center">Search Your favorite Movies</h1>
+                <div class="input_family">
+                    <input type="text" class="form-control" [(ngModel)]="query" placeholder="Search for movies"
+                        (keyup.enter)="onSearch()" />
+                    <button (click)="onSearch()" class="btn btn-seacrh-me">Search</button>
+                </div>
+                <div class="row" *ngIf="results.length > 0">
+                    <!-- <div *ngIf="results.length > 0"> -->
+                        <div class="col-md-3" *ngFor="let movie of results">
+                            <div class="card mb-3">
+
+                                <img *ngIf="movie.poster_path"
+                                    [src]="'https://image.tmdb.org/t/p/w200' + movie.poster_path"
+                                    alt="{{ movie.title }}" />
+                                <div class="card-body">
+                                    <h5 class="card-title">{{ movie.title }}</h5>
+                                     <p class="card-text">{{ movie.release_date }}</p>
+                                    <!-- <p class="card-text">{{ movie.overview }}</p> -->
+                                    <a [routerLink]="['/movie', movie.id]" class="btn btn-seacrh-me">Watch now</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
+                </div>
+                <!-- <div class="row">
+                    <div *ngIf="results.length > 0">
+                        <div class="col-md-4">
+                            <div *ngFor="let movie of results">
+                                <a [routerLink]="['/movie', movie.id]">
+                                    <h4>{{ movie.title }}</h4>
+                                </a>
+                                <img *ngIf="movie.poster_path"
+                                    [src]="'https://image.tmdb.org/t/p/w200' + movie.poster_path"
+                                    alt="{{ movie.title }}" />
+                                <p>{{ movie.release_date }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="resttrol_des">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h5>Designed and Developed by <span>Anil Kumar Reddy V</span></h5>
+                <a href="https://www.linkedin.com/in/anil-reddy-full-stack-developer/" target="_blank"><img
+                        src="assets/img/linkedin.png" alt=""> Linked Id</a>
+            </div>
+            <div class="col-md-6 text-center">
+
+            </div>
+        </div>
+    </div>
+
+</section>

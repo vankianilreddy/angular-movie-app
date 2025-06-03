@@ -1,0 +1,27 @@
+.feel_good_banner{
+    background-color: black;
+    padding: 60px 0;
+}
+.feel_good_banner h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.feel_good_banner img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.btn-click-me{
+    background: linear-gradient(82.85deg, rgb(63 81 181 / 87%), rgb(233 30 99 / 48%)), linear-gradient(159.28deg, #000000f2 27.44%, rgb(0 25 59 / 76%) 72.56%);   
+     color: #fff;
+    font-weight: 500;   
+}
+.feel_good_banner h5{
+    font-size: 17px;
+    font-weight: 600 !important;
+    margin: 20px 0;
+}
+.new_card{
+    width: max-content;
+}

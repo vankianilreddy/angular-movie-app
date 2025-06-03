@@ -1,0 +1,76 @@
+.movie_home_page_banner {
+    background: linear-gradient(to bottom, #000000c7, #434343c2), url(../../assets/img/banner_img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.movie_home_page_banner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 70px;
+    color: #fff;
+    text-align: center;
+}
+
+.movie_home_page_banner h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.movie_home_page_banner .card {
+    background: linear-gradient(82.85deg, rgb(63 81 181 / 87%), rgb(233 30 99 / 48%)), linear-gradient(159.28deg, #000000f2 27.44%, rgb(0 25 59 / 76%) 72.56%);    border: unset;
+    border-radius: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.btn-seacrh-me{
+        background: linear-gradient(82.85deg, rgb(63 81 181 / 87%), rgb(233 30 99 / 48%)), linear-gradient(159.28deg, #000000f2 27.44%, rgb(0 25 59 / 76%) 72.56%);    border: unset;
+        color: #fff;
+}
+.movie_home_page_banner .card h3{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+.movie_home_page_banner .card p{
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+}
+.btn-click-me{
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;   
+}
+.resttrol_des {
+    background: linear-gradient(38deg, #121212 70%, #272727);
+    border-top: 1px solid #ccc;
+    padding: 19px 0;
+}
+.resttrol_des h5{
+    color: #fff;
+}
+.resttrol_des img{
+    width: 20px;
+}
+.resttrol_des a{
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+}
+.movie_search{
+    margin: 60px 0;
+}
+.movie_search input{
+    width: 50%;
+    border-color: rgb(233 30 99 );
+}
+.input_family{
+    margin: 40px 0; 
+    display: flex;
+    justify-content: center;
+}
