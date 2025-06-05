@@ -1,23 +1,55 @@
-# Project Overview (Angular Movie App (TMDB API))
+# Angular Movie App (TMDB API)
 
 This is a movie browsing web application built using Angular 17 Version and integrated with The Movie Database (TMDB) API. It allows users to search, explore, and view details about movies and TV shows in a clean UI.
 
+## Project Overview
 
-# FrontEnd
+The Angular Movie App is a single-page application that fetches movie data from the TMDB API. Users can:
+- Search for movies and TV shows
+- View trending and popular content
+- Browse by categories (e.g., Feel-good, Action Fix and Mind Binders)
+- View detailed info about selected media.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
+This project is ideal for learning how to:
+- Work with APIs in Angular
+- Implement routing
+- Use Angular services and components
+- Handle asynchronous data
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Movie and TV show search
+- Trending & popular listings
+- Movie/TV details with overview, cast
+- Lazy loading modules
+- Responsive and clean UI with Bootstrap 5
 
-## Code scaffolding
+## Techincal Details
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Frontend Framework**: Angular 17
+- **API**: [TMDB API](https://developer.themoviedb.org/docs)
+- **CSS Framework**:Bootstrap 5
+- **Other Tools**: RxJS, Angular CLI, TypeScript
 
-## Build
+## How to Install and Run Locally
+1. Prerequisites
+  Make sure you have the following installed: 
+  Node.js (LTS version recommended): Download Node.js
+  Angular CLI (Globally): npm install -g @angular/cli (run this in command prompt)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+2. Clone the Repository
+   - git clone https://github.com/vankianilreddy/angular-movie-app
+     cd angular-movie-app
+
+3. Install Dependencies
+   Run npm install (run this command in vs code terminal This will install all the required node modules listed in package.json.)
+
+4. Run the Development Server
+   Run ng serve --open (Then open http://localhost:4200 in your browser)
+
+## To Deploy
+
+   Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
