@@ -35,17 +35,17 @@ This project is ideal for learning how to:
 1. Prerequisites
   Make sure you have the following installed: 
   Node.js (LTS version recommended): Download Node.js
-  Angular CLI (Globally): npm install -g @angular/cli (run this in command prompt)
+  Angular CLI (Globally): `npm install -g @angular/cli` (run this in command prompt)
 
 2. Clone the Repository
    - git clone https://github.com/vankianilreddy/angular-movie-app
-     cd angular-movie-app
+     `cd angular-movie-app`
 
 3. Install Dependencies
-   Run npm install (run this command in vs code terminal This will install all the required node modules listed in package.json.)
+   Run `npm install` (run this command in vs code terminal This will install all the required node modules listed in package.json.)
 
 4. Run the Development Server
-   Run ng serve --open (Then open http://localhost:4200 in your browser)
+   Run `ng serve --open` (Then open http://localhost:4200 in your browser)
 
 ## To Deploy
 
