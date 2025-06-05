@@ -1,3 +1,8 @@
+# Project Overview (Angular Movie App (TMDB API))
+
+This is a movie browsing web application built using Angular 17 Version and integrated with The Movie Database (TMDB) API. It allows users to search, explore, and view details about movies and TV shows in a clean UI.
+
+
 # FrontEnd
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.3.
